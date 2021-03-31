@@ -1,0 +1,141 @@
+#header-index {
+  margin: 0px auto;
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header-index h1 {
+  color: #f9f871;
+  font-size: 5rem;
+  margin: 2px 2px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#header-index h2 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: auto 25%;
+}
+
+#first-part {
+  margin: 3px auto;
+  background-image: url("images/bacground_kites_in_the_sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  position: relative;
+}
+
+#first-part h2 {
+  color: #ff005c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-top: 90px;
+  margin: 5px auto 0 auto;
+}
+
+#first-part h3 {
+  color: #f9f3f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.15rem;
+  font-weight: normal;
+  padding-top: 275px;
+  margin: 5px auto 0 auto;
+  width: 75%;
+}
+
+#first-part p {
+  color: #f9f871;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 2px auto 0 auto;
+  width: 75%;
+}
+
+#second-part {
+  margin: 2px auto;
+  background-image: url("images/background_sky_with_geese.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1750px;
+  position: relative;
+}
+
+#second-part h2 {
+  color: #f9f3f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-top: 75px;
+  padding-bottom: 30px;
+  margin: 5px auto 10px auto;
+}
+
+#second-part h3 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.45rem;
+  font-weight: normal;
+  padding-top: 50px;
+  margin: 5px auto 10px auto;
+}
+
+#second-part ul {
+  text-align: left;
+  list-style: outside;
+}
+
+#second-part li {
+  color: #03506f;
+  line-height: 2;
+}
+
+#second-part .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#second-part .container div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+
+.nature {
+  text-decoration: underline;
+}
+
+.flex .container div {
+  width: 400px;
+  height: 500px;
+  margin: 3px;
+  border: solid 2px lightslategray;
+  border-radius: 4%;
+}
+
+.flex .container div:nth-child(1) {
+  background-color: #f1d1d0;
+}
+
+.flex .container div:nth-child(2) {
+  background-color: #c8eed9;
+}
+
+.flex .container div:nth-child(3) {
+  background-color: #fad586;
+}

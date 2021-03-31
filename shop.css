@@ -1,0 +1,138 @@
+#header-shop {
+  margin: 0px auto;
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header-shop h1 {
+  color: #f9f871;
+  font-size: 5rem;
+  margin: 2px 2px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#header-shop h2 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: auto 25%;
+}
+
+#part-1 {
+  margin: 2px auto;
+  background-image: url("images/background_incoming_robin.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+}
+
+#part-1 h2 {
+  color: #ff005c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-top: 2px;
+  margin: 3px auto 0 auto;
+}
+
+#part-1 h3 {
+  color: #f9f3f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.15rem;
+  font-weight: normal;
+  padding-top: 25px;
+  margin: 5px auto 0 auto;
+  width: 75%;
+}
+
+#part-1 p {
+  color: #fff600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 2px auto 0 auto;
+  width: 75%;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.cart a {
+  background-color: #9ddfd3;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#bird-container {
+  background-image: url("images/background_sky_with_geese.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding-bottom: 100px;
+}
+
+#bird-container h3 {
+  color: #edffec;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.15rem;
+  font-weight: normal;
+  padding-top: 5px;
+  margin: 5px auto 0 auto;
+  width: 75%;
+}
+
+.image {
+  background-color: #c19277;
+  border: 2px solid #98ded9;
+  border-radius: 5%;
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  background-color: #98ded9;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8,
+.image:hover .cart9,
+.image:hover .cart10 {
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="services.css" />
+    <title>Toby Roy's Services and Contact Page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="top-nav">
+        <ul class="main-items">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <ul class="sub-items">
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+              <li class="cart">
+                <a href="cart.html">
+                  <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="services.html">Services and Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="part-one">
+        <h1>Hey there, I'm Toby</h1>
+        <img class="Toby-pic" src="Toby.png" alt="Profile picture of Toby Roy" />
+        <h2>
+          I'm a web developer and <span class="pro">pro</span>grammer with a
+          passion for photography. Drop me a <a href="#end-part">message.</a>
+        </h2>
+      </div>  
+      <section id="part-two">
+        <h2>My Skills</h2>
+        <div class="skills-row1">
+          <img class="computer-image" src="seo.png" alt="a pixel generated image of a computer">
+          <h3>I'm starting out as a freelance web developer and digital designer</h3>
+          <p>I'm now fluent in HTML and many aspects of CSS and have started immersing myself in JavaScript</p>
+          <p><div>Icon made by<a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai"> Nhor Phai </a>from<a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com </a></div></p>
+        </div>
+        <div class="skills-row2">
+          <img class="camera-image" src="camera.png" alt="a pixel generated image of a camera">
+          <h3>I'm gradually taking on work as a freelance photographer</h3>
+          <p>I specialise in nature and landscape photography but also do portraiture work</p>
+          <p><div>Icon made by<a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a>from<a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com </a></div></p>
+        </div>
+        <section id="part-three" class="flex">
+          <h2>Personal Profile</h2>
+          <div class="container">
+          <div>
+            <h2>Education and Background</h2>
+        <ul>
+          <li>BSc Hons Biochemistry from the University of Strathclyde</li>
+          <li>
+            MSc Analytical Methods in Bioanalysis and Post Genome Studies from the
+            University of Manchester
+          </li>
+          <li>
+            PGCE Secondary Science (specialising in Chemistry) from the Institute of
+            Education London
+          </li>
+          <li>
+            Currently studying towards an PGCert in Web Development Digital Media at
+            Birkbeck University
+          </li>
+        </ul>
+          </div>
+          <div>
+        <h2>My hobbies and interests</h2>
+        <ol>
+          <li>
+            I have an interest in
+            <a href="https://www.youtube.com/watch?v=s6cbN_DR8FA" target="_blank">ecology</a> and
+            believe in the conservation of habitats for the maintenance of organisms
+          </li>
+          <li>
+            I have a passion for nature and wildlife photography but also record
+            other images of interest, for example town and urban landscapes
+          </li>
+          <li>
+            Having practiced
+            <a href="https://www.youtube.com/watch?v=ZToicYcHIOU" target="_blank">Mindfulness</a>
+            and <a href="https://www.youtube.com/watch?v=6hZIzMpHl-c" target="_blank">Yoga</a> for 5
+            years, I believe in the importance of
+            <a href="https://www.youtube.com/watch?v=_gJ5V525SCk" target="_blank">Wellbeing</a>
+          </li>
+          <li>I try to make education accessible to students</li>
+        </ol>
+          </div>
+          <div>
+            <h2>Recent Developments</h2>
+        <table cellspacing="20">
+          <thead>
+            <tr>
+              <th>Dates</th>
+              <th>Work</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2020-2021</td>
+              <td>
+                I'm currently working as a tutor whilst
+                studying towards a PGCert in Web Development and Digital Design at
+                Birkbeck University.
+              </td>
+            </tr>
+            <tr>
+              <td>2018-2020</td>
+              <td>
+                Travelled around China and volunteered to teach English in a primary
+                school in India. Set up a tuition business.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+          </div>
+        </div>
+        </section>
+      </section>
+      <div id="end-part">
+        <h2>Get In Touch</h2>
+        <h3>For website and brand development</h3>
+        <p class="contact-message">I can help you develop your business website and/or provide professional quality photographs & images. Please feel free to get in touch.</p>
+        <a class="btn" href="mailto:troy9j77@googlemail.com">CONTACT ME</a>
+        <h3>Alternatively, if you would like to write a message, please fill in the form below</h3>
+      <form action="mailto:troy9j77@googlemail.com" method="post" enctype="text/plain">
+        <label for="clientname">Your Name:</label>
+        <input id="clientname" type="text" required="required" name="" value=""><br>
+        <br>
+        <label for="email">Your Email Address</label>
+        <input id="email" type="email" required="required" name="email" value=""><br>
+        <br>
+        <label for="message">Your Message</label><br>
+        <textarea id="message" name="" required="required" rows="10" cols="30"></textarea><br>
+        <br>
+        <input type="submit" name="">
+      </div>
+    </div>
+    <div id="footer">
+      <a class="footer-link" href="https://twitter.com/roytroy9j77?lang=en-gb">Twitter</a>
+      <p class="copyright">© 2021 Toby Roy</p>
+      <a class="privacy-policy" a href="#privacy-policy">Privacy Policy</a>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

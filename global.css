@@ -1,0 +1,91 @@
+body {
+  background-color: #ccf2f4;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 90%;
+  color: #1687a7;
+}
+
+#top-nav {
+  background-color: #a3d2ca;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#top-nav .main-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  flex-grow: 1;
+}
+
+#top-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+#top-nav li {
+  padding: 0;
+  margin: 0;
+}
+
+#top-nav li {
+  list-style-type: none;
+  font-size: 1rem;
+  display: block;
+}
+
+#top-nav li a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #487e95;
+  padding: 10px 20px;
+}
+
+#top-nav li a:hover {
+  color: #ffe3de;
+}
+
+#top-nav .sub-items {
+  display: flex;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.cart a {
+  background-color: #9ddfd3;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #66bfbf;
+  padding: 20px 0 20px;
+}
+
+#footer .copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+#footer .footer-link {
+  color: blue;
+  font-size: 1rem;
+}
+
+#footer .privacy-policy {
+  color: blue;
+  font-size: 1rem;
+}

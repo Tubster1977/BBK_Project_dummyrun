@@ -1,0 +1,220 @@
+#part-one {
+  margin: 0px auto;
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#part-one h1 {
+  color: #f9f871;
+  font-size: 5rem;
+  margin: 2px 2px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#part-one h2 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 30px;
+  width: 50%;
+  margin: auto 25%;
+}
+
+#part-two {
+  margin: 0px auto;
+  background-image: url(https://cdn.pixabay.com/photo/2012/02/17/14/50/background-13986_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#part-two h2 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 2px;
+  padding-top: 30px;
+  margin: 2px auto 0 auto;
+}
+
+#part-two p {
+  color: #ff4646;
+  font-weight: bolder;
+  padding-bottom: 2%;
+}
+
+#part-three {
+  padding-bottom: 10px;
+  margin: 5px auto;
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#part-three h2 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 2px;
+  padding-top: 20px;
+  margin: 5px auto 10px auto;
+}
+
+#part-three ul {
+  text-align: left;
+  list-style: outside;
+}
+
+#part-three ol {
+  text-align: left;
+  list-style-position: outside;
+}
+
+#part-three li {
+  color: #03506f;
+  line-height: 2;
+}
+
+#part-three th {
+  color: #03506f;
+  font-size: 90%;
+  line-height: 2;
+}
+
+#part-three td {
+  color: #03506f;
+  font-size: 90%;
+  line-height: 2;
+}
+
+#part-three .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#part-three .container div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+
+#end-part h2 {
+  color: #008891;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 30px auto 0 auto;
+}
+
+.Toby-pic {
+  margin: 35px;
+}
+
+.computer-image {
+  width: 25%;
+  float: left;
+  padding-left: 75px;
+  padding-right: 30px;
+}
+
+.camera-image {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+  padding-right: 135px;
+}
+
+.skills-row1 {
+  width: 70%;
+  margin: 30px auto;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.skills-row2 {
+  width: 70%;
+  margin: 60px auto;
+  padding-left: 140px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.flex .container div {
+  width: 400px;
+  height: 500px;
+  margin: 5px;
+  border: solid 1px lightslategray;
+  border-radius: 15%;
+}
+
+.flex .container div:nth-child(1) {
+  background-color: #f1d1d0;
+}
+
+.flex .container div:nth-child(2) {
+  background-color: #a1cae2;
+}
+
+.flex .container div:nth-child(3) {
+  background-color: #ffefa1;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 21px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  border: solid #337fed 1px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+  #end-part h2 {
+    color: #af0069;
+    font-weight: 700;
+  }
+}
