@@ -53,19 +53,6 @@ body {
   display: flex;
 }
 
-.cart ion-icon {
-  vertical-align: bottom;
-  font-size: 20px;
-  padding-right: 5px;
-}
-
-.cart a {
-  background-color: #9ddfd3;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 #footer {
   display: flex;
   justify-content: space-evenly;
